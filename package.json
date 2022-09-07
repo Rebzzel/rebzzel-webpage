@@ -1,0 +1,16 @@
+{
+  "name": "rebzzel-web",
+  "version": "0.0.1",
+  "description": "Rebzzel's portfolio site.",
+  "main": "index.js",
+  "scripts": {
+	  "build": "node build.js",
+	  "dev": "chokidar \"src/*\" -c \"npm run build\""
+  },
+  "author": "Rebzzel",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "sass": "^1.54.8"
+  }
+}
