@@ -1,55 +1,55 @@
 ul.flex > li {
-	margin: 0.25rem;
-	padding: .35rem .7rem;
-	border: 1px #ddd solid;
-	border-radius: .375rem;
-	font-weight: 600;
-	font-size: 13px;
+    margin: 0.25rem;
+    padding: .35rem .7rem;
+    border: 1px #ddd solid;
+    border-radius: .375rem;
+    font-weight: 600;
+    font-size: 13px;
 }
 
 ul.flex > li:before {
 }
 
 ul.flex > li.A {
-	border-color: fuchsia;
-	color: fuchsia;
-	background: rgba(fuchsia, .1);
+    border-color: fuchsia;
+    color: fuchsia;
+    background: rgba(fuchsia, .1);
 }
 
 ul.flex > li.B {
-	border-color: green;
-	color: green;
-	background: rgba(green, .1);
+    border-color: green;
+    color: green;
+    background: rgba(green, .1);
 }
 
 ul.flex > li.C {
-	border-color: #d97b03;
-	color: #d97b03;
-	background: rgba(#d97b03, .1);
+    border-color: #d97b03;
+    color: #d97b03;
+    background: rgba(#d97b03, .1);
 }
 
 section {
-	transition: background 0.3s;
+    transition: background 0.3s;
 }
 
 .dot {
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	border-radius: 9999px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
 }
 
 .button {
-	padding: .5rem;
-	border-radius: .375rem;
-	transition: 0.3s;
+    padding: .5rem;
+    border-radius: .375rem;
+    transition: 0.3s;
 }
 
 input, textarea {
-	padding: .5rem;
-	border-radius: .375rem;
+    padding: .5rem;
+    border-radius: .375rem;
 }
 
 .illuminate {
-	background: rgba(gold, .5);
+    background: rgba(gold, .5);
 }
