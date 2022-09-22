@@ -1,7 +1,7 @@
 function Component() {
     return (
         <div className="text-center">
-            <text>&copy; 2022 Rebzzel. All rights reserved.</text>
+            <p>&copy; 2022 Rebzzel. All rights reserved.</p>
         </div>
     )
 }
