@@ -6,7 +6,7 @@ import '../styles/globals.css'
 function App({ Component, pageProps, router }) {
     return (
         <ThemeProvider attribute="class">
-            <AnimatePresence exitBeforeEnter>
+            <AnimatePresence mode="wait">
                 <Component {...pageProps} key={router.route} />
             </AnimatePresence>
         </ThemeProvider>
