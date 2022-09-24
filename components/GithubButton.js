@@ -1,10 +1,11 @@
 import clsx from 'clsx'
 import { FaGithub } from 'react-icons/fa'
+import Interactive from './future/Interactive.js'
 
 function Component() {
     return (
         <a href="https://github.com/Rebzzel/rebzzel-webpage">
-            <button
+            <Interactive
                 className={clsx(
                     'duration-300',
                     'p-2',
@@ -22,7 +23,7 @@ function Component() {
                 )}
             >
                 <FaGithub size={20}/>
-            </button>
+            </Interactive>
         </a>
     )
 }
