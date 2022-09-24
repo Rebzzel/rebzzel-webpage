@@ -3,9 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 function Document() {
     return (
         <Html>
-            <Head>
-                <title>Kirill Paltsev's Webpage</title>
-            </Head>
+            <Head/>
             <body>
                 <Main/>
                 <NextScript/>
