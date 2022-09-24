@@ -11,6 +11,7 @@ function Component() {
         'fixed',
         'w-full',
         'p-4',
+        'z-50',
 
         'bg-[#ffffff50]',
         'dark:bg-[#21242950]',
