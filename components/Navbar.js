@@ -14,7 +14,7 @@ function Component() {
 
         'bg-[#ffffff50]',
         'dark:bg-[#21242950]',
-        'backgrop-blur-sm',
+        'backdrop-blur-sm',
     )
 
     const mainContainerClass = clsx(
