@@ -13,6 +13,7 @@ function Component({ className, href, imageSrc, children }) {
                     height={120}
                     quality={100}
                     objectFit="cover"
+                    alt=""
                     className="rounded-md"
                 />
                 <div className={clsx(
