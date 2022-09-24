@@ -11,6 +11,7 @@ function Component({ className, href, imageSrc, children }) {
                     src={imageSrc}
                     width={256}
                     height={120}
+                    quality={100}
                     objectFit="cover"
                     className="rounded-md"
                 />
