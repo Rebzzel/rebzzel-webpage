@@ -8,7 +8,7 @@ function Page() {
                 <p className="p-2 py-6 text-2xl text-center">
                     🏗️
                     <br/>
-                    We're building something here...
+                    We&lsquo;re building something here...
                     <br/>
                     See you later!
                 </p>
