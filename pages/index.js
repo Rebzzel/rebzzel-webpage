@@ -58,6 +58,7 @@ function Page() {
 
         'Next.js',
         'React Native',
+        'Redux',
         'JQuery',
 
         'FastAPI',
